@@ -165,10 +165,6 @@ pbjs.que.push(function() {
 function initAdserver() {
     if (pbjs.initAdserverSet) return;
     pbjs.initAdserverSet = true;
-    googletag.cmd.push(function() {
-        pbjs.setTargetingForGPTAsync && pbjs.setTargetingForGPTAsync();
-        googletag.pubads().refresh();
-    });
 }
 
 setTimeout(function() {
