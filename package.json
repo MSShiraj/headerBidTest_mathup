@@ -1,0 +1,11 @@
+{
+  "name": "mathup",
+  "version": "1.0.0",
+  "description": "Project to create Header Bidding file for Mathup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shiraj",
+  "license": "ISC"
+}
